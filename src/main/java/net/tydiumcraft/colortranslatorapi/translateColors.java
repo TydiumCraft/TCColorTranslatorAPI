@@ -7,31 +7,33 @@ import net.kyori.adventure.text.format.TextDecoration;
 
 public class translateColors {
 
-    public TextDecoration getFormat(char code) {
+    public translateColors(){}
+
+    public static TextDecoration getFormat(char code) {
         return null;
     }
 
-    public TextDecoration getColor(char code) {
+    public static TextDecoration getColor(char code) {
         return null;
     }
 
-    public Component translateFormatWithColor(String string, NamedTextColor color) {
+    public static Component translateFormatWithColor(String string, NamedTextColor color) {
         return null;
     }
 
-    public Component translateColorWithFormat(String string, TextDecoration format) {
+    public static Component translateColorWithFormat(String string, TextDecoration format) {
         return null;
     }
 
-    public Component translateFormat(String string) {
+    public static Component translateFormat(String string) {
         return null;
     }
 
-    public Component translateColor(String string) {
+    public static Component translateColor(String string) {
         return null;
     }
 
-    public Component translateStringList(String[] strings) {
+    public static Component translateStringList(String[] strings) {
         return null;
     }
 }
